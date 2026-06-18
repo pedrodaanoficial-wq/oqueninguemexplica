@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Site de Cursos</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <a href="index.html">SiteCurso</a>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#cursos">Cursos</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+      <button class="menu-toggle" aria-label="Abrir menu">&#9776;</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <h1>Aprenda novas habilidades</h1>
+        <p>Cursos online para impulsionar sua carreira e transformar seu futuro.</p>
+        <a href="#cursos" class="btn">Ver Cursos</a>
+      </div>
+    </section>
+
+    <section id="cursos" class="cursos">
+      <h2>Nossos Cursos</h2>
+      <div class="cursos-grid">
+        <div class="card">
+          <div class="card-icon">&#128187;</div>
+          <h3>Desenvolvimento Web</h3>
+          <p>HTML, CSS, JavaScript e frameworks modernos.</p>
+          <span class="preco">R$ 197,00</span>
+          <a href="#" class="btn btn-small">Saiba mais</a>
+        </div>
+        <div class="card">
+          <div class="card-icon">&#128202;</div>
+          <h3>Marketing Digital</h3>
+          <p>Estratégias de SEO, tráfego pago e redes sociais.</p>
+          <span class="preco">R$ 147,00</span>
+          <a href="#" class="btn btn-small">Saiba mais</a>
+        </div>
+        <div class="card">
+          <div class="card-icon">&#127912;</div>
+          <h3>Design Gráfico</h3>
+          <p>Photoshop, Illustrator e identidade visual.</p>
+          <span class="preco">R$ 167,00</span>
+          <a href="#" class="btn btn-small">Saiba mais</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="sobre" class="sobre">
+      <h2>Sobre Nós</h2>
+      <p>Somos uma plataforma dedicada a oferecer cursos de alta qualidade, com conteúdo prático e atualizado para você se destacar no mercado.</p>
+    </section>
+
+    <section id="contato" class="contato">
+      <h2>Contato</h2>
+      <form class="form-contato" action="#" method="post">
+        <input type="text" name="nome" placeholder="Seu nome" required>
+        <input type="email" name="email" placeholder="Seu e-mail" required>
+        <textarea name="mensagem" placeholder="Sua mensagem" rows="5" required></textarea>
+        <button type="submit" class="btn">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 SiteCurso. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
