@@ -3,79 +3,764 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Site de Cursos</title>
+  <title>O Que Ninguém Explica Sobre Pombagira e Exu</title>
+  <meta name="description" content="Descubra como compreender melhor sua incorporação, fortalecer seu relacionamento espiritual e acessar conhecimentos que normalmente são aprendidos de forma fragmentada ao longo dos anos.">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='45' fill='%230F2A44'/><circle cx='50' cy='50' r='20' fill='%23C8A35F'/></svg>">
+
+  <!-- Preload fontes críticas -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700;800&family=Playfair+Display:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700;800&family=Playfair+Display:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
+
+  <!-- Meta Pixel -->
+  <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1310686214577464');
+    fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1310686214577464&ev=PageView&noscript=1"/></noscript>
+
+  <!-- Google Analytics 4 (adicionar ID quando disponível) -->
+  <!-- Microsoft Clarity (adicionar ID quando disponível) -->
 </head>
 <body>
-  <header>
-    <nav class="navbar">
-      <div class="logo">
-        <a href="index.html">SiteCurso</a>
+
+  <div class="progress-bar" id="progressBar"></div>
+
+  <!-- SEÇÃO 1 — HERO -->
+  <section id="hero" class="hero">
+
+    <div class="container hero-grid">
+      <div class="hero-text">
+        <h1>O Que Ninguém Explica Sobre <span class="highlight">Pombagira</span> e <span class="highlight">Exu</span></h1>
+        <p class="subheadline">Descubra como compreender melhor sua incorporação, fortalecer seu relacionamento espiritual e acessar conhecimentos que normalmente são aprendidos de forma fragmentada ao longo dos anos.</p>
       </div>
-      <ul class="nav-links">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#cursos">Cursos</a></li>
-        <li><a href="#sobre">Sobre</a></li>
-        <li><a href="#contato">Contato</a></li>
-      </ul>
-      <button class="menu-toggle" aria-label="Abrir menu">&#9776;</button>
-    </nav>
-  </header>
-
-  <main>
-    <section id="home" class="hero">
-      <div class="hero-content">
-        <h1>Aprenda novas habilidades</h1>
-        <p>Cursos online para impulsionar sua carreira e transformar seu futuro.</p>
-        <a href="#cursos" class="btn">Ver Cursos</a>
+      <div class="hero-video">
+        <div class="video-wrapper">
+          <iframe src="https://www.youtube.com/embed/RuEc-sZkHW0?si=p5vvNGE5T4XotWla&modestbranding=1&rel=0&showinfo=0&iv_load_policy=3&disablekb=0" title="VSL" frameborder="0" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <div class="video-overlay-block"></div>
+        </div>
+        <a href="#oferta" class="btn-cta btn-cta-video" data-track="video-cta">QUERO COMPREENDER MELHOR</a>
+        <a href="#faq" class="cta-secundario">Ainda com dúvidas? Veja as perguntas frequentes →</a>
+        <p class="social-proof"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg> +584 pessoas já acessaram</p>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section id="cursos" class="cursos">
-      <h2>Nossos Cursos</h2>
-      <div class="cursos-grid">
-        <div class="card">
-          <div class="card-icon">&#128187;</div>
-          <h3>Desenvolvimento Web</h3>
-          <p>HTML, CSS, JavaScript e frameworks modernos.</p>
-          <span class="preco">R$ 197,00</span>
-          <a href="#" class="btn btn-small">Saiba mais</a>
+  <!-- CONECTOR -->
+  <div class="conector">
+    <p>Se você se sente perdida(o) na sua caminhada, continue lendo.</p>
+  </div>
+
+  <!-- SEÇÃO 3 — A CONTA DAS 12 OPORTUNIDADES (Timeline) -->
+  <section id="conta" class="conta">
+    <div class="container">
+      <h2 class="section-title">A conta que quase ninguém faz.</h2>
+      <p class="section-subtitle">Em muitos lugares o desenvolvimento acontece apenas <strong>uma vez por mês</strong>.</p>
+
+      <div class="meses-timeline">
+        <div class="meses-timeline-line"></div>
+
+        <div class="mes-step">
+          <div class="mes-icon">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+          </div>
+          <div class="mes-content">
+            <span class="mes-label">Janeiro</span>
+            <p>1 oportunidade</p>
+          </div>
         </div>
-        <div class="card">
-          <div class="card-icon">&#128202;</div>
-          <h3>Marketing Digital</h3>
-          <p>Estratégias de SEO, tráfego pago e redes sociais.</p>
-          <span class="preco">R$ 147,00</span>
-          <a href="#" class="btn btn-small">Saiba mais</a>
+
+        <div class="mes-step">
+          <div class="mes-icon">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+          </div>
+          <div class="mes-content">
+            <span class="mes-label">Fevereiro</span>
+            <p>1 oportunidade</p>
+          </div>
         </div>
-        <div class="card">
-          <div class="card-icon">&#127912;</div>
-          <h3>Design Gráfico</h3>
-          <p>Photoshop, Illustrator e identidade visual.</p>
-          <span class="preco">R$ 167,00</span>
-          <a href="#" class="btn btn-small">Saiba mais</a>
+
+        <div class="mes-step">
+          <div class="mes-icon">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+          </div>
+          <div class="mes-content">
+            <span class="mes-label">Março</span>
+            <p>1 oportunidade</p>
+          </div>
+        </div>
+
+        <div class="mes-dots">
+          <span></span><span></span><span></span>
+        </div>
+
+        <div class="mes-step">
+          <div class="mes-icon">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+          </div>
+          <div class="mes-content">
+            <span class="mes-label">Novembro</span>
+            <p>1 oportunidade</p>
+          </div>
+        </div>
+
+        <div class="mes-step">
+          <div class="mes-icon faded">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+          </div>
+          <div class="mes-content">
+            <span class="mes-label">Dezembro</span>
+            <p>1 oportunidade</p>
+          </div>
+        </div>
+
+        <div class="mes-step total">
+          <div class="mes-icon total-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+          </div>
+          <div class="mes-content">
+            <span class="mes-label total-label">Total no ano</span>
+            <p class="total-num">Apenas <span class="count-up" data-target="12">0</span> oportunidades</p>
+          </div>
         </div>
       </div>
-    </section>
 
-    <section id="sobre" class="sobre">
-      <h2>Sobre Nós</h2>
-      <p>Somos uma plataforma dedicada a oferecer cursos de alta qualidade, com conteúdo prático e atualizado para você se destacar no mercado.</p>
-    </section>
+      <div class="caixa-destaque">
+        <p>Você tentaria aprender medicina com apenas <strong>12 aulas por ano</strong>?</p>
+      </div>
+    </div>
+  </section>
 
-    <section id="contato" class="contato">
-      <h2>Contato</h2>
-      <form class="form-contato" action="#" method="post">
-        <input type="text" name="nome" placeholder="Seu nome" required>
-        <input type="email" name="email" placeholder="Seu e-mail" required>
-        <textarea name="mensagem" placeholder="Sua mensagem" rows="5" required></textarea>
-        <button type="submit" class="btn">Enviar</button>
-      </form>
-    </section>
-  </main>
+  <!-- CONECTOR -->
+  <div class="conector">
+    <p>Foi exatamente isso que me fez começar a ensinar.</p>
+  </div>
+
+  <!-- SEÇÃO 4 — POR QUE DECIDI ENSINAR ISSO -->
+  <section id="sobre" class="sobre">
+    <div class="container sobre-grid">
+      <div class="sobre-foto parallax-foto">
+        <div class="foto-placeholder">
+          <img src="img/pedro-daan-sobre.jpg" alt="Pedro Daan" loading="lazy">
+        </div>
+      </div>
+      <div class="sobre-texto">
+        <h2 class="section-title left">Durante anos eu observei a mesma situação se repetir.</h2>
+        <div class="sobre-body">
+          <p>Quando comecei minha caminhada na espiritualidade, acreditava que com o tempo todas as respostas apareceriam naturalmente.</p>
+          <p>E algumas realmente apareceram.</p>
+          <p>Mas conforme os anos passaram e comecei a acompanhar cada vez mais pessoas dentro da religião, percebi algo que me chamou atenção.</p>
+
+          <blockquote class="destaque-lateral">
+            Muitos médiuns sinceros estavam vivendo exatamente a mesma dificuldade.
+          </blockquote>
+
+          <p>Eles frequentavam as giras.<br>
+          Participavam dos desenvolvimentos.<br>
+          Cumpriam seus preceitos.<br>
+          Faziam aquilo que lhes era orientado.</p>
+          <p>Mesmo assim continuavam carregando dúvidas que ninguém parecia responder de forma clara.</p>
+          <p>Enquanto alguns pareciam avançar rapidamente, outros passavam anos tentando entender coisas básicas sobre incorporação, relacionamento espiritual, Exu, Pombagira e até mesmo sobre aquilo que sentiam dentro do próprio terreiro.</p>
+          <p>Foi então que comecei a perceber um padrão.</p>
+
+          <blockquote class="destaque-lateral">
+            O problema quase nunca era falta de mediunidade.<br>O problema era falta de compreensão.
+          </blockquote>
+
+          <p>Em muitos lugares as informações chegam aos poucos.</p>
+
+          <div class="lista-fragmentada">
+            <p>Uma explicação durante uma gira.</p>
+            <p>Uma conversa de corredor.</p>
+            <p>Um conselho dado rapidamente.</p>
+            <p>Uma orientação que alguém ouviu anos atrás.</p>
+          </div>
+
+          <p>E assim as pessoas passam muito tempo tentando juntar peças de um quebra-cabeça que nunca foi apresentado por completo.</p>
+          <p>Depois de <strong>18 anos de vivência</strong> com os meus, dentre eles <strong>10 anos estudando, pesquisando e acompanhando pessoas</strong> dentro das religiões afro-brasileiras, percebi que existia uma forma muito mais simples de encurtar esse caminho.</p>
+          <p>Foi por isso que decidi reunir neste treinamento aquilo que normalmente é aprendido de forma fragmentada ao longo dos anos.</p>
+
+          <div class="sobre-fechamento">
+            <p>Não para substituir o terreiro.</p>
+            <p>Não para substituir o desenvolvimento.</p>
+            <p><strong>Mas para ajudar você a compreender melhor aquilo que talvez ninguém tenha conseguido explicar até hoje.</strong></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONECTOR -->
+  <div class="conector">
+    <p>E o caminho que organizei é simples.</p>
+  </div>
+
+  <!-- SEÇÃO 5 — A JORNADA DA COMPREENSÃO (Sticky Cards) -->
+  <section id="jornada" class="jornada">
+    <div class="container">
+      <div class="stack-layout">
+        <div class="stack-header">
+          <h5 class="stack-label">A jornada</h5>
+          <h2 class="section-title left">Os 5 Passos da <span class="highlight">Compreensão</span></h2>
+          <p class="section-subtitle left">Cada passo foi pensado para construir clareza sobre a sua caminhada espiritual.</p>
+        </div>
+        <div class="stack-container">
+          <div class="stack-card" style="--card-index: 0;">
+            <div class="stack-card-inner passo-style">
+              <div class="stack-card-top">
+                <h3>Porque algumas pessoas desenvolvem mais rápido que outras.</h3>
+                <span class="stack-card-num gold">01</span>
+              </div>
+              <p class="stack-card-desc">Entenda os fatores que aceleram ou travam o desenvolvimento mediúnico e por que isso varia tanto de pessoa para pessoa.</p>
+            </div>
+          </div>
+          <div class="stack-card" style="--card-index: 1;">
+            <div class="stack-card-inner passo-style">
+              <div class="stack-card-top">
+                <h3>Desvendando a incorporação.</h3>
+                <span class="stack-card-num gold">02</span>
+              </div>
+              <p class="stack-card-desc">Compreenda o que realmente acontece durante a incorporação e como identificar os sinais com mais clareza.</p>
+            </div>
+          </div>
+          <div class="stack-card" style="--card-index: 2;">
+            <div class="stack-card-inner passo-style">
+              <div class="stack-card-top">
+                <h3>O que você precisa saber sobre Pombagira e Exu.</h3>
+                <span class="stack-card-num gold">03</span>
+              </div>
+              <p class="stack-card-desc">Fundamentos que normalmente levam anos para serem compreendidos, organizados de forma clara e acessível.</p>
+            </div>
+          </div>
+          <div class="stack-card" style="--card-index: 3;">
+            <div class="stack-card-inner passo-style">
+              <div class="stack-card-top">
+                <h3>Relacionamento espiritual.</h3>
+                <span class="stack-card-num gold">04</span>
+              </div>
+              <p class="stack-card-desc">Como construir e fortalecer a conexão com suas entidades de forma consciente e respeitosa.</p>
+            </div>
+          </div>
+          <div class="stack-card" style="--card-index: 4;">
+            <div class="stack-card-inner passo-style">
+              <div class="stack-card-top">
+                <h3>O que você precisa saber sobre banhos de ervas.</h3>
+                <span class="stack-card-num gold">05</span>
+              </div>
+              <p class="stack-card-desc">Conhecimentos práticos sobre banhos, seus propósitos e como utilizá-los na sua caminhada.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONECTOR -->
+  <div class="conector">
+    <p>Mas antes de continuar, preciso ser transparente.</p>
+  </div>
+
+  <!-- SEÇÃO 6 — O QUE VOCÊ NÃO VAI ENCONTRAR AQUI (Timeline) -->
+  <section id="honestidade" class="honestidade">
+    <div class="container">
+      <h2 class="section-title">Antes de entrar preciso ser honesto com você.</h2>
+
+      <div class="honestidade-timeline">
+        <div class="honestidade-line"></div>
+
+        <div class="honestidade-step nao">
+          <div class="honestidade-icon-circle nao">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+          </div>
+          <div class="honestidade-step-content">
+            <p>Não prometo incorporações instantâneas.</p>
+          </div>
+        </div>
+
+        <div class="honestidade-step nao">
+          <div class="honestidade-icon-circle nao">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+          </div>
+          <div class="honestidade-step-content">
+            <p>Não prometo milagres.</p>
+          </div>
+        </div>
+
+        <div class="honestidade-step nao">
+          <div class="honestidade-icon-circle nao">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+          </div>
+          <div class="honestidade-step-content">
+            <p>Não prometo resultados da noite para o dia.</p>
+          </div>
+        </div>
+
+        <div class="honestidade-step nao">
+          <div class="honestidade-icon-circle nao">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+          </div>
+          <div class="honestidade-step-content">
+            <p>Não prometo substituir o terreiro.</p>
+          </div>
+        </div>
+
+        <div class="honestidade-step sim">
+          <div class="honestidade-icon-circle sim">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+          </div>
+          <div class="honestidade-step-content sim">
+            <p>Prometo ajudar você a compreender aquilo que normalmente leva <strong>anos</strong> para ser aprendido.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SEÇÃO 6B — PARA QUEM É -->
+  <section class="para-quem-section">
+    <div class="container">
+      <h2 class="section-title">Isso é para você?</h2>
+      <div class="para-quem-grid">
+        <div class="para-quem-col sim">
+          <h3>É para você se...</h3>
+          <ul>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#27864a" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Sente que sua mediunidade poderia estar mais clara</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#27864a" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Quer compreender melhor sua incorporação</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#27864a" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Busca conhecimento organizado sobre Pombagira e Exu</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#27864a" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Valoriza orientação séria e respeitosa</li>
+          </ul>
+        </div>
+        <div class="para-quem-col nao">
+          <h3>Não é para você se...</h3>
+          <ul>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#c0392b" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg> Busca soluções mágicas ou instantâneas</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#c0392b" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg> Não está disposta(o) a estudar e refletir</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#c0392b" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg> Espera que isso substitua o terreiro</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#c0392b" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg> Quer receitas prontas sem dedicação</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONECTOR -->
+  <div class="conector">
+    <p>E quem já passou por isso sabe a diferença que faz.</p>
+  </div>
+
+  <!-- SEÇÃO 7 — DEPOIMENTOS -->
+  <section id="depoimentos" class="depoimentos">
+
+    <div class="container">
+      <h2 class="section-title">O que mudou quando essas pessoas passaram a compreender melhor sua caminhada.</h2>
+
+      <!-- Depoimento principal -->
+      <div class="depoimento-destaque">
+        <div class="depoimento-destaque-video">
+          <div class="depoimento-video-wrapper">
+            <iframe src="https://www.youtube.com/embed/yCxEgv7mW3g?modestbranding=1&rel=0&showinfo=0&iv_load_policy=3" title="Depoimento Luisa" frameborder="0" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="depoimento-destaque-texto">
+          <p class="depoimento-nome">Luisa</p>
+          <p class="depoimento-contexto">Já recebe a sua Pombagira e Exu.</p>
+        </div>
+      </div>
+
+      <!-- Outros depoimentos -->
+      <div class="depoimentos-grid">
+        <div class="depoimento-card">
+          <div class="depoimento-video-wrapper">
+            <iframe src="https://www.youtube.com/embed/QaeMc4lC1B8?modestbranding=1&rel=0&showinfo=0&iv_load_policy=3" title="Depoimento Rafaela" frameborder="0" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+          <p class="depoimento-nome">Rafaela</p>
+          <p class="depoimento-resumo">Já recebe a sua Pombagira e Exu.</p>
+        </div>
+        <div class="depoimento-card">
+          <div class="depoimento-video-wrapper">
+            <iframe src="https://www.youtube.com/embed/M4URdbR9mk8?modestbranding=1&rel=0&showinfo=0&iv_load_policy=3" title="Depoimento Taila" frameborder="0" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+          <p class="depoimento-nome">Taila</p>
+          <p class="depoimento-resumo">Está no início do desenvolvimento.</p>
+        </div>
+        <div class="depoimento-card">
+          <div class="depoimento-video-wrapper">
+            <iframe src="https://www.youtube.com/embed/d-5lfPuW04Q?modestbranding=1&rel=0&showinfo=0&iv_load_policy=3" title="Depoimento César" frameborder="0" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+          <p class="depoimento-nome">César</p>
+          <p class="depoimento-resumo">Está no início do desenvolvimento.</p>
+        </div>
+        <div class="depoimento-card">
+          <div class="depoimento-video-wrapper">
+            <iframe src="https://www.youtube.com/embed/L2wt5YRtEP4?modestbranding=1&rel=0&showinfo=0&iv_load_policy=3" title="Depoimento Henrique" frameborder="0" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+          <p class="depoimento-nome">Henrique</p>
+          <p class="depoimento-resumo">Já recebe seu Exu e Pombagira.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SEÇÃO 8 — O QUE ACONTECE DEPOIS QUE VOCÊ ENTRA (Timeline c/ ícones) -->
+  <section id="timeline" class="timeline-section">
+    <div class="container">
+      <h2 class="section-title">O que acontece depois que você entra</h2>
+
+      <div class="icon-timeline">
+        <div class="icon-timeline-line"></div>
+
+        <div class="icon-timeline-step">
+          <div class="icon-timeline-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+          </div>
+          <div class="icon-timeline-content">
+            <span class="icon-timeline-num">01</span>
+            <h4>Recebe acesso</h4>
+            <p>Login e senha para a plataforma com todos os módulos disponíveis imediatamente.</p>
+          </div>
+        </div>
+
+        <div class="icon-timeline-step">
+          <div class="icon-timeline-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+          </div>
+          <div class="icon-timeline-content">
+            <span class="icon-timeline-num">02</span>
+            <h4>Assiste os conteúdos</h4>
+            <p>Aulas organizadas em ordem lógica para você absorver no seu ritmo.</p>
+          </div>
+        </div>
+
+        <div class="icon-timeline-step">
+          <div class="icon-timeline-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"/><path d="m9 12 2 2 4-4"/></svg>
+          </div>
+          <div class="icon-timeline-content">
+            <span class="icon-timeline-num">03</span>
+            <h4>Aplica os ensinamentos</h4>
+            <p>Coloque em prática aquilo que aprendeu na sua caminhada espiritual.</p>
+          </div>
+        </div>
+
+        <div class="icon-timeline-step">
+          <div class="icon-timeline-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+          </div>
+          <div class="icon-timeline-content">
+            <span class="icon-timeline-num">04</span>
+            <h4>Compartilha experiências</h4>
+            <p>Relate o que viveu através do canal exclusivo para alunas(os).</p>
+          </div>
+        </div>
+
+        <div class="icon-timeline-step">
+          <div class="icon-timeline-icon highlighted">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+          </div>
+          <div class="icon-timeline-content">
+            <span class="icon-timeline-num">05</span>
+            <h4>Aprofunda sua compreensão</h4>
+            <p>A cada ciclo de prática e orientação, a clareza se expande.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONECTOR -->
+  <div class="conector">
+    <p>E o suporte não termina quando a aula acaba.</p>
+  </div>
+
+  <!-- SEÇÃO 9 — CANAL DE EXPERIÊNCIAS (Timeline Vertical) -->
+  <section id="canal" class="canal">
+    <div class="container">
+      <h2 class="section-title">Porque a maioria das dúvidas surgem depois da prática.</h2>
+      <p class="section-subtitle">A maioria dos cursos termina quando a aula acaba.<br><strong>Aqui começa outra etapa.</strong></p>
+
+      <div class="canal-layout">
+        <div class="canal-texto">
+          <p>Depois de assistir ao treinamento e aplicar aquilo que aprendeu, você poderá compartilhar suas experiências através de um formulário exclusivo.</p>
+          <p>Ali você poderá relatar aquilo que sentiu, percebeu ou viveu durante sua prática.</p>
+          <p>Dependendo da experiência relatada, poderei ajudá-la(o) a compreender melhor aquilo que aconteceu e oferecer orientações que contribuam para sua caminhada.</p>
+          <p><strong>Porque muitas vezes a dúvida não surge antes.<br>Ela surge depois.</strong></p>
+        </div>
+
+        <div class="canal-timeline">
+          <div class="canal-timeline-line"></div>
+
+          <div class="canal-step">
+            <div class="canal-step-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+            </div>
+            <div class="canal-step-content">
+              <h4>Você assiste</h4>
+              <p>Acesse os módulos no seu ritmo e absorva o conhecimento organizado.</p>
+            </div>
+          </div>
+
+          <div class="canal-step">
+            <div class="canal-step-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"/><path d="m9 12 2 2 4-4"/></svg>
+            </div>
+            <div class="canal-step-content">
+              <h4>Você aplica</h4>
+              <p>Coloque em prática aquilo que aprendeu na sua caminhada espiritual.</p>
+            </div>
+          </div>
+
+          <div class="canal-step">
+            <div class="canal-step-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+            </div>
+            <div class="canal-step-content">
+              <h4>Você compartilha</h4>
+              <p>Relate suas experiências através do formulário exclusivo para alunas(os).</p>
+            </div>
+          </div>
+
+          <div class="canal-step highlighted">
+            <div class="canal-step-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+            </div>
+            <div class="canal-step-content">
+              <h4>Eu analiso</h4>
+              <p>Avalio cada experiência e ofereço orientações personalizadas para sua jornada.</p>
+            </div>
+            <span class="canal-step-badge">Diferencial exclusivo</span>
+          </div>
+
+          <div class="canal-step">
+            <div class="canal-step-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+            </div>
+            <div class="canal-step-content">
+              <h4>Você compreende melhor</h4>
+              <p>A clareza se aprofunda a cada ciclo de prática e orientação.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONECTOR -->
+  <div class="conector">
+    <p>Agora veja como acessar tudo isso.</p>
+  </div>
+
+  <!-- SEÇÃO 10 — OFERTA -->
+  <section id="oferta" class="oferta">
+
+    <div class="container">
+      <h2 class="section-title">O conhecimento que normalmente leva anos para ser reunido agora está disponível para você.</h2>
+
+      <div class="comparativo-grid">
+        <!-- Coluna ERRADO -->
+        <div class="comparativo-col errado">
+          <h3>Caminho Mais Comum</h3>
+          <div class="comp-timeline">
+            <div class="comp-timeline-line errado"></div>
+            <div class="comp-step">
+              <div class="comp-icon errado">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="15" y1="9" x2="9" y2="15"/><line x1="9" y1="9" x2="15" y2="15"/></svg>
+              </div>
+              <p>Tentar aprender aos poucos</p>
+            </div>
+            <div class="comp-step">
+              <div class="comp-icon errado">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              </div>
+              <p>Esperar explicações aparecerem</p>
+            </div>
+            <div class="comp-step">
+              <div class="comp-icon errado">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+              </div>
+              <p>Anos juntando informações</p>
+            </div>
+            <div class="comp-step">
+              <div class="comp-icon errado">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+              </div>
+              <p>Continuar com dúvidas</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Coluna CERTO -->
+        <div class="comparativo-col certo">
+          <h3>O Que Você Encontra Aqui</h3>
+          <div class="comp-timeline">
+            <div class="comp-timeline-line certo"></div>
+            <div class="comp-step">
+              <div class="comp-icon certo">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+              </div>
+              <p>Compreender os fundamentos</p>
+            </div>
+            <div class="comp-step">
+              <div class="comp-icon certo">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+              </div>
+              <p>Organizar o conhecimento</p>
+            </div>
+            <div class="comp-step">
+              <div class="comp-icon certo">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"/><path d="m9 12 2 2 4-4"/></svg>
+              </div>
+              <p>Aplicar com mais consciência</p>
+            </div>
+            <div class="comp-step">
+              <div class="comp-icon certo">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+              </div>
+              <p>Encurtar o caminho</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="preco-box">
+        <p class="preco-de">De <span>R$197</span></p>
+        <p class="preco-hoje">Hoje por apenas</p>
+        <p class="preco-valor">R$97 <span>à vista</span></p>
+        <p class="preco-parcela">ou <strong>10x de R$11,37</strong></p>
+
+        <div class="ancora-destaque">
+          <p class="ancora-valor">R$0,27<span>/dia</span></p>
+          <p class="ancora-texto">Menos que uma vela palito na casa de artigos religiosos para acessar aquilo que normalmente só se aprende depois de anos de caminhada.</p>
+        </div>
+
+        <ul class="oferta-lista">
+          <li data-tooltip="5 módulos com aulas detalhadas"><span class="check">&#10004;</span> Os 5 Passos da Compreensão</li>
+          <li data-tooltip="Comunidade exclusiva de alunas(os)"><span class="check">&#10004;</span> Grupo Experiências</li>
+          <li data-tooltip="Envie relatos e receba orientações"><span class="check">&#10004;</span> Canal para compartilhar experiências</li>
+          <li data-tooltip="Acesse quando e quantas vezes quiser"><span class="check">&#10004;</span> Acesso por 1 ano</li>
+        </ul>
+
+        <div class="vagas-counter">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          <span>Vagas com acompanhamento são limitadas para garantir atenção individual</span>
+        </div>
+
+        <a href="https://pay.kiwify.com.br/H3GGU3j" class="btn-cta" data-track="oferta-cta" onclick="if(typeof fbq==='function'){fbq('track','InitiateCheckout')}">QUERO COMPREENDER MELHOR</a>
+        <a href="#faq" class="cta-secundario">Ainda com dúvidas? Veja as perguntas frequentes →</a>
+
+        <div class="trust-badges">
+          <div class="trust-item"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg><span>Compra segura</span></div>
+          <div class="trust-item"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg><span>Dados protegidos</span></div>
+          <div class="trust-item pix-badge"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg><span>Pix ou cartão</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SEÇÃO 11 — GARANTIA -->
+  <section id="garantia" class="garantia-section">
+    <div class="container">
+      <div class="garantia-box">
+        <div class="garantia-selo">
+          <svg viewBox="0 0 120 120" width="100" height="100" xmlns="http://www.w3.org/2000/svg">
+            <polygon points="60,5 72,40 110,40 80,62 90,98 60,78 30,98 40,62 10,40 48,40" fill="none" stroke="#C8A35F" stroke-width="2"/>
+            <text x="60" y="50" text-anchor="middle" font-family="Cormorant Garamond, serif" font-size="22" font-weight="700" fill="#F7F2EA">7</text>
+            <text x="60" y="70" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" font-weight="600" fill="#F7F2EA">DIAS</text>
+          </svg>
+        </div>
+        <h2>Risco zero. Você tem 7 dias.</h2>
+        <p>Entre, assista e avalie com calma.</p>
+        <p>Se em 7 dias sentir que não é para você, devolvemos <strong>100% do valor</strong>.</p>
+        <p>Sem perguntas. Sem burocracia.<br><strong>Sem risco.</strong></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SEÇÃO 12 — FAQ -->
+  <section id="faq" class="faq">
+    <div class="container">
+      <h2 class="section-title">Perguntas Frequentes</h2>
+      <div class="faq-list">
+        <details class="faq-item">
+          <summary>Esse curso serve para quem ainda não sabe quem são seu Exu e sua Pombagira?</summary>
+          <p>Sim. Inclusive existe uma parte do conteúdo dedicada justamente para quem ainda não sabe quais são suas entidades. Você aprenderá conceitos fundamentais sobre Exu, Pombagira, incorporação, relacionamento espiritual e práticas que podem facilitar essa aproximação de forma consciente.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Já frequento um terreiro. Esse curso pode atrapalhar o desenvolvimento da minha casa?</summary>
+          <p>Não. O objetivo do curso não é substituir o terreiro, o sacerdote ou os processos da sua casa. O que você aprenderá aqui são conhecimentos que normalmente levam anos para serem organizados e compreendidos, ajudando você a entender melhor aquilo que já vivencia dentro da religião.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Em quanto tempo vou conseguir incorporar meu Exu ou minha Pombagira?</summary>
+          <p>Não existe prazo exato. A incorporação depende de diversos fatores individuais. O objetivo do curso não é prometer um resultado instantâneo, mas ajudar você a compreender melhor o processo, evitar erros comuns e criar condições que favoreçam esse desenvolvimento de forma mais consciente.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Preciso ter mediunidade desenvolvida para aproveitar o conteúdo?</summary>
+          <p>Não. O curso foi estruturado tanto para quem está começando quanto para quem já possui contato com suas entidades. Você entenderá desde os fundamentos até aspectos mais avançados sobre relacionamento espiritual, incorporação e banhos de ervas.</p>
+        </details>
+        <details class="faq-item">
+          <summary>O que diferencia esse curso do que normalmente aprendemos no desenvolvimento?</summary>
+          <p>Na maioria das casas, o desenvolvimento acontece poucas vezes ao longo do ano e normalmente é voltado para a prática. Já este curso reúne explicações que geralmente são aprendidas ao longo de muitos anos através de experiências, observações e conversas de bastidores. A proposta é organizar esse conhecimento para que você compreenda o que está acontecendo e não apenas participe do processo.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Por quanto tempo terei acesso ao curso?</summary>
+          <p>Você terá acesso completo por 1 ano. Além disso, também receberá acesso ao grupo Experiências, onde poderá acompanhar relatos de outras(os) alunas(os) e compartilhar sua própria caminhada.</p>
+        </details>
+        <details class="faq-item">
+          <summary>E se eu tiver dúvidas depois de assistir às aulas?</summary>
+          <p>Além do grupo Experiências, ao concluir as práticas ensinadas no curso você poderá compartilhar seus resultados e experiências através do canal disponibilizado às(aos) alunas(os). Dessa forma será possível receber orientações adicionais sobre o que observou durante sua experiência e sobre seu relacionamento espiritual.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Esse curso é para quem quer fazer trabalhos espirituais?</summary>
+          <p>Não. Este curso foi criado para quem deseja compreender melhor Exu e Pombagira, melhorar seu relacionamento espiritual e entender o processo da incorporação de forma mais consciente. Os ensinamentos sobre banhos de ervas e práticas apresentadas possuem finalidade de desenvolvimento espiritual e autoconhecimento dentro dessa caminhada.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- SEÇÃO 13 — ÚLTIMO CTA -->
+  <section id="ultimo-cta" class="ultimo-cta">
+    <div class="container ultimo-cta-grid">
+      <div class="ultimo-foto">
+        <div class="foto-placeholder">
+          <img src="img/pedro-daan.jpg" alt="Pedro Daan" loading="lazy">
+        </div>
+      </div>
+      <div class="ultimo-texto">
+        <h2>Quanto tempo você ainda pretende tentar entender tudo isso sozinha(o)?</h2>
+        <p>Talvez o que falta não seja mais tempo.<br><strong>Talvez faltem as explicações certas.</strong></p>
+        <a href="#oferta" class="btn-cta" data-track="final-cta">QUERO ESSA CLAREZA</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA FIXO MOBILE -->
+  <div class="cta-fixo-mobile" id="ctaFixo">
+    <a href="https://pay.kiwify.com.br/H3GGU3j" class="btn-cta btn-cta-fixo" data-track="fixo-cta">QUERO COMPREENDER MELHOR</a>
+  </div>
+
+  <div class="oferta-sticky-bar" id="ofertaStickyBar">
+    <div class="oferta-sticky-inner">
+      <span class="oferta-sticky-preco">R$97 <small>à vista</small></span>
+      <span class="oferta-sticky-sep">·</span>
+      <span class="oferta-sticky-info">Acesso 1 ano · Garantia 7 dias</span>
+      <a href="https://pay.kiwify.com.br/H3GGU3j" class="btn-cta btn-cta-sticky" data-track="sticky-cta" onclick="if(typeof fbq==='function'){fbq('track','InitiateCheckout')}">QUERO COMPREENDER MELHOR</a>
+    </div>
+  </div>
 
   <footer>
-    <p>&copy; 2026 SiteCurso. Todos os direitos reservados.</p>
+    <div class="container">
+      <p>&copy; 2026 Todos os direitos reservados.</p>
+      <p class="disclaimer">Este produto não substitui orientação religiosa ou acompanhamento em terreiro.</p>
+    </div>
   </footer>
 
   <script src="js/main.js"></script>
